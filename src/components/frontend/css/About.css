@@ -1,0 +1,5 @@
+.container_about{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw 6vw;
+}

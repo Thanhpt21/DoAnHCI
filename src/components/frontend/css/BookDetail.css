@@ -1,0 +1,134 @@
+.product-details-container {
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  min-height: 823px;
+}
+.product-details-image-left {
+  width: 30%;
+}
+.product-details-image-left .img-holder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product-details-image-left .img-holder > img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+.product-details-right {
+  width: 60%;
+}
+.product-buttons {
+  margin-top: 20px;
+  color: #dfccb3;
+}
+.product-title {
+  font-size: 16pt;
+  font-weight: 500;
+}
+.product-type{
+  margin-top: 15px;
+  font-size: 14pt;
+}
+.rating-title{
+  margin-top: 15px;
+  font-size: 14pt;
+}
+
+.description{
+  font-size: 13pt;
+}
+.description-title{
+  margin-top: 15px;
+  font-size: 14pt;
+}
+
+.price-title{
+  margin-top: 15px;
+  font-size: 14pt;
+}
+.price{
+  font-size: 14pt;
+}
+
+.input-quantity > input {
+  border: 0;
+  width: 30px;
+  text-align: center;
+}
+.input-quantity {
+  margin-left: 15px;
+  border: 1px solid #DFCCB3;
+}
+.line-quantity {
+  display: flex;
+  font-size: 14pt;
+  margin-top: 15px;
+}
+.line-quantity button {
+  border: 0;
+  background: #DFCCB3;
+  border: 1px solid #DFCCB3;
+
+  width: 30px;
+}
+
+.btn-add-to-cart,
+.btn-buy-now {
+  border: 1px solid #DFCCB3;
+  background: #DFCCB3;
+  margin-right: 10px;
+  color: white;
+  
+}
+.title-btn{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-add-to-cart:hover,.btn-buy-now:hover {
+  background: #AF7C60;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.rating > input {
+  display: none;
+}
+
+.rating > label {
+  position: relative;
+  width: 1.1em;
+  font-size: 30px;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+.rating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+  opacity: 1;
+}
+
+.rating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}

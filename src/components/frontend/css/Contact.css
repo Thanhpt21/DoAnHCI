@@ -1,0 +1,8 @@
+.container_contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw 6vw;
+}
+.border{
+    border: 1px solid #DFCCB3;
+}

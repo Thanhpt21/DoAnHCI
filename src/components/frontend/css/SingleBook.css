@@ -1,0 +1,16 @@
+
+.hieuung_hover:hover{
+    border-color: #ad795d;
+    opacity: 0.9;
+}
+
+.hieuung_text{
+    color: #3C3C3C;
+}
+
+.hieuung_text:hover{
+    color: #ad795d !important;
+}
+.card-img{
+    padding: 1vw;
+}
